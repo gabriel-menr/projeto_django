@@ -17,6 +17,7 @@ class LeadDetailView(DetailView):
     model = Lead
     context_object_name = "lead"
 
+
 class LeadCreateView(CreateView):
     template_name = "leads/lead_create.html"
     form_class = LeadModelForm
